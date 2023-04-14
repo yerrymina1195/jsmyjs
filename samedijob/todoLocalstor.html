@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--======================================FAVICON======================================-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <!-- link boostrap5 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+       <!--LINK Font Awesone-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <!-- Custom file's link -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="">
+   <link rel="stylesheet" href="">
+</head>
+<body>
+  
+
+
+    <section class=" moi mt-5 mb-2">
+        <div class="container text-center">
+            <h1 class="text-decoration-underline"> Formulaire </h1>
+           
+        </div>
+        
+         
+      </section>
+      <section class="">
+
+        <form action="" class="container d-flex flex-column justify-content-center align-items-center   "onsubmit="return false" >
+            <div class="row   ">
+               
+                    <div class="mb-3 w-50 mx-auto">
+
+                        <label for="prenom" class="form-label">Prenom</label>
+                        <input type="text" class="form-control" id="prenom" placeholder="Alkaly">
+                    </div>
+             
+                 
+                    <div class="mb-3 w-50 mx-auto">
+
+                        <label for="nom" class="form-label">nom</label>
+                        <input type="text" class="form-control" id="nom" placeholder="Badji">
+                    </div>
+                
+            </div>
+           <div class="row">
+            <div class="mb-3 w-50 mx-auto">
+                <label for="taille" class="form-label">la taille</label>
+                <input type="text" class="form-control" id="taille" placeholder="190">
+              </div>
+              <div class="mb-3 w-50 mx-auto">
+                <label for="poids" class="form-label">le poids</label>
+                <input type="text" class="form-control" id="poids" placeholder="80">
+              </div>
+            </div>
+              <div class="mt-3  ">
+                <button type="submit" onclick="ajouter()" id="adding" class="btn btn-primary mb-3">ajouter</button>
+                <button type="submit"  id="clearing" class="btn btn-primary mb-3">clear all</button>
+
+              </div>
+            
+        </form>
+
+      </section>
+
+<section>
+    <!-- <div class="container">
+        <div class="title text-center">
+            <h1 class="text-secondary fw-bolder display-3" >  To Do list </h1>
+        </div>
+        
+        <form action="" class="py-3 " onsubmit="return false" >
+            <div class="row d-flex justify-content-center align-items-center  ">
+                <div class="col d-flex justify-content-center">
+                    <input type="text" style="max-width: 400px;" class="form-control" id="taker" placeholder=" Something to do" aria-label="City">
+                    <button type="submit" class=" ms-2 btn btn-primary" id="ajouter" onclick="ajout()">Submit</button>               
+  
+                  </div>
+              </div>
+        </form>
+    </div> -->
+    <div class="container">
+        <div class="row" >
+            <div class="col d-flex flex-column justify-content-around align-items-center " id="lesTaches">
+                <!-- <div class="flex-column flex-md-row d-flex justify-content-around bg-light p-3  ">
+                   <div class=" text-center bg-danger  text-white fw-bolder p-2">,dsfkdf,,slkdf,ls,klq</div>
+                   <div class="d-flex align-items-center justify-content-around mt-5 mt-md-0">
+                    <button type="submit" class="btn btn-success ms-2"> done</button>
+                    <button type="submit" class="btn btn-warning ms-2"> doing</button>
+                    <button type="submit" class="btn btn-danger ms-2"> to do</button>
+                   </div>
+
+                </div> -->
+                <p id="p2"></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--BOOTSTRAP CDN-->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>   
+ <!--KIT.FONT AWESOME-->
+ <script src="https://kit.fontawesome.com/e5c1f80f7e.js" crossorigin="anonymous"></script>
+ <script src="todoLocalstor.js"></script>
+
+</body>

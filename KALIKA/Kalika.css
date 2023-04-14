@@ -1,0 +1,19 @@
+body{
+background-image: linear-gradient(rgba(0, 0, 0, 0.4),transparent),url('téléchargement.png');
+background-repeat: no-repeat;
+background-size:100%, 370px;
+background-position-y: 6%;
+background-position-x: 50%;
+background-attachment: fixed;
+    color: white;
+}
+
+.none{
+    display: none !important;
+}
+.tblate{
+    background-color: rgba(119, 228, 242, 0.35);
+}
+.search{
+    width: 250px;
+}
